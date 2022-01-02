@@ -54,15 +54,16 @@ const Index = () => {
           </div>
         </div>
         <div className="mt-8">
-          I am <b> Olaonipekun Carew </b> . Ola for simplicity 😊 , I write
-          things that work on the internet.{" "}
+          I am <span className="font-black"> Olaonipekun Carew </span> . Ola for
+          simplicity 😊 , I write things that work on the internet.{" "}
         </div>
         <div className="mt-2">
-          I’m an innovative <b> fullstack developer </b> with 5 years experience
-          in building pixel-perfect and customer-focused websites, UIs and
-          server-side applications, deploying robust and secure APIs, meeting
-          high standards web design, user experience, best practices, and speed.
-          I aim to make a difference through my creative solution.
+          I’m an innovative{" "}
+          <span className="font-black"> fullstack developer </span> with 5 years
+          experience in building pixel-perfect and customer-focused websites,
+          UIs and server-side applications, deploying robust and secure APIs,
+          meeting high standards web design, user experience, best practices,
+          and speed. I aim to make a difference through my creative solution.
         </div>
 
         <div className="flex lg:flex-row flex-col-reverse items-start">
@@ -84,7 +85,7 @@ const Index = () => {
                       />
                     </Disclosure.Button>
                     <Disclosure.Panel
-                      className={`px-4 pt-4 pb-2 text-base font-bold ${
+                      className={`px-4 pt-4 pb-2 text-base font-black ${
                         enabled ? "" : "text-gray-900"
                       } `}
                     >

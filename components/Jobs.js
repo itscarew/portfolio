@@ -33,7 +33,7 @@ export default function Jobs({ enanled }) {
 
   return (
     <div className="w-full lg:px-4 px-0 py-16">
-      <p className="mb-2 font-bold text-base">Experience / Jobs</p>
+      <p className="mb-2 font-black text-base">Experience / Jobs</p>
       <div className="w-full  mx-auto">
         <RadioGroup value={selected} onChange={setSelected}>
           <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>

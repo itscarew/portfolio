@@ -64,7 +64,7 @@ export default function Social({ enabled }) {
               Email address :{" "}
               <a
                 href="mailto:itscarew@gmail.com"
-                className="font-bold underline  text-green-700 "
+                className="font-black underline  text-green-700 "
               >
                 itscarew@gmail.com
               </a>
@@ -76,7 +76,7 @@ export default function Social({ enabled }) {
               <a
                 href="https://github.com/itscarew?tab=repositories"
                 target="/_blank"
-                className="font-bold underline text-green-700 "
+                className="font-black underline text-green-700 "
               >
                 github{" "}
               </a>{" "}
@@ -88,7 +88,7 @@ export default function Social({ enabled }) {
               <a
                 href="https://www.linkedin.com/in/olaonipekun-carew/"
                 target="/_blank"
-                className="font-bold underline text-green-700  "
+                className="font-black underline text-green-700  "
               >
                 linkedin
               </a>{" "}
@@ -105,7 +105,7 @@ export default function Social({ enabled }) {
               <a
                 download
                 href="/resume.pdf"
-                className="font-bold underline text-green-700  "
+                className="font-black underline text-green-700  "
               >
                 {" "}
                 resume{" "}
@@ -121,8 +121,8 @@ export default function Social({ enabled }) {
             <p className={`${enabled ? "text-white" : ""}`}>
               Outside of programming and work, I love watching movies,
               especially
-              <b> sci-fi series </b>. I'm also a gamer and I play basketball 🏀.
-              A big NBA fan here 😉.
+              <span className="font-black"> sci-fi series </span>. I'm also a
+              gamer and I play basketball 🏀. A big NBA fan here 😉.
             </p>
           </Tab.Panel>
         </Tab.Panels>

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Layout = ({ children, className }) => (
   <div
-    className={`layout min-h-screen lg:px-48 px-8 py-12 text-base ${className} `}
+    className={`layout min-h-screen lg:px-48 px-8 py-12 text-base font-body ${className} `}
   >
     <Head>
       <title>Olaonipekun Carew</title>
