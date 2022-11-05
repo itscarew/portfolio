@@ -119,10 +119,9 @@ export default function Social({ enabled }) {
             } rounded-xl p-3 focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60 text-black`}
           >
             <p className={`${enabled ? "text-white" : ""}`}>
-              Outside of programming and work, I love watching movies,
-              especially
-              <span className="font-black"> sci-fi series </span>. I'm also a
-              gamer and I play basketball 🏀. A big NBA fan here 😉.
+              Outside of writing code, I love watching movies, especially
+              <span className="font-black"> sci-fi series </span>. I also
+              play/watch basketball and american football.
             </p>
           </Tab.Panel>
         </Tab.Panels>

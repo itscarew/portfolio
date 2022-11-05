@@ -23,11 +23,10 @@ const Index = () => {
           {" "}
           <span className="text-5xl">
             {" "}
-            Hi{" "}
-            <span role={"img"} aria-label="hi">
+            Ẹ Ǹlẹ́ !{" "}
+            {/* <span role={"img"} aria-label="hi">
               👋
-            </span>{" "}
-            !{" "}
+            </span>{" "} */}{" "}
           </span>
           <div className="flex items-center">
             <div className="mr-2">
@@ -54,16 +53,16 @@ const Index = () => {
           </div>
         </div>
         <div className="mt-8">
-          I am <span className="font-black"> Olaonipekun Carew </span> . Ola for
-          simplicity 😊 , I write things that work on the internet.{" "}
+          I am <span className="font-black"> Olaonipekun Carew </span>. I write
+          things that work on the internet.{" "}
         </div>
         <div className="mt-2">
-          I’m an innovative{" "}
-          <span className="font-black"> fullstack developer </span> with 5 years
-          experience in building pixel-perfect and customer-focused websites,
-          UIs and server-side applications, deploying robust and secure APIs,
-          meeting high standards web design, user experience, best practices,
-          and speed. I aim to make a difference through my creative solution.
+          Innovative <span className="font-black"> software developer </span>{" "}
+          with 6 years experience in building pixel-perfect and customer-focused
+          websites, UIs and server-side applications, deploying robust and
+          secure APIs, meeting high standards web design, user experience, best
+          practices, and speed. I aim to make a difference through my creative
+          solution.
         </div>
 
         <div className="flex lg:flex-row flex-col-reverse items-start">
@@ -112,8 +111,16 @@ const Index = () => {
                       } `}
                     >
                       <ol className="list-disc text-base">
-                        <li> Yaba college of technology </li>
-                        <li> NIIT - Mastermind Series, Honours Diploma </li>
+                        <li>
+                          {" "}
+                          National Diploma , Computer Science, Yaba college of
+                          technology{" "}
+                        </li>
+                        <li> Honours Diploma, Software Engineering, NIIT. </li>
+                        <li>
+                          {" "}
+                          Bachelors Degree, Computer Science, ESGT University.{" "}
+                        </li>
                       </ol>
                     </Disclosure.Panel>
                   </>
