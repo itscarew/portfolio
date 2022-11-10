@@ -53,7 +53,7 @@ const Index = () => {
           solution.
         </div>
 
-        <div className="mt-3">
+        <div className="mt-4">
           I'm proficient in{" "}
           <span className="font-black">
             {" "}
@@ -67,16 +67,7 @@ const Index = () => {
           and more{" "}
         </div>
 
-        <div className="mt-3">
-          Innovative <span className="font-black"> software developer </span>{" "}
-          with 6 years experience in building pixel-perfect and customer-focused
-          websites, UIs and server-side applications, deploying robust and
-          secure APIs, meeting high standards web design, user experience, best
-          practices, and speed. I aim to make a difference through my creative
-          solution.
-        </div>
-
-        <div className="mt-3">
+        <div className="mt-4">
           I reside in Lagos, Nigeria. I'm currently working as a frontend
           developer in{" "}
           <span className="font-black">
@@ -91,7 +82,7 @@ const Index = () => {
           <span className="font-black"> Zijela ICT, Lagos, Nigeria </span>.
         </div>
 
-        <div className="mt-3">
+        <div className="mt-4">
           I have a{" "}
           <span className="font-black">
             {" "}
@@ -110,7 +101,7 @@ const Index = () => {
           from ESGT University.
         </div>
 
-        <div className="mt-3">
+        <div className="mt-4">
           This is my{" "}
           <a
             href="https://github.com/itscarew?tab=repositories"
@@ -135,7 +126,7 @@ const Index = () => {
           .{" "}
         </div>
 
-        <div className="mt-3 mb-2">
+        <div className="mt-4 mb-2">
           Outside of writing code, I love watching movies, especially sci-fi
           series . I also love to watch/play basketball and american football .
         </div>
